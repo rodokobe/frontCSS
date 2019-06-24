@@ -1,0 +1,33 @@
+.main {
+  width: 80%;
+  height: 80%;
+  max-width: 1600px;
+  max-height: 800px;
+  margin: 20px auto;
+  padding: auto;
+  display: flex;
+}
+
+.intro-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #4c162c;
+}
+
+.charts {
+  display: flex;
+  align-items: flex;
+  margin: 10px;
+  text-align: center;
+  font-size: 14px;
+
+  width: 80%;
+  height: 80%;
+  max-width: 1000px;
+  max-height: 800px;
+  margin: 20px;
+  padding: auto;
+}
