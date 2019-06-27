@@ -6,7 +6,12 @@
 }
 
 body {
-  background: #fafafa;
+  /* background: #dce1e6; */
+  background-color: #f2f7fc !important;
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased !important;
+}
+
+.main {
+  margin-top: 5em !important;
 }

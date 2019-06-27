@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+}
+.bm-burger-bars,
+.bm-burger-bars-hover,
+.bm-burger-bars:hover {
+  background-color: #000 !important;
+}
+
+#App {
+  font-family: sans-serif;
+
+  /* Give app full page to work with */
+  height: 100vh;
+}
+
+#page-wrap {
+  text-align: center;
+
+  /* Prevent sidebar from showing a scrollbar on page */
+  overflow: auto;
+}
+
+.bm-burger-button {
+  width: 27px !important;
+  height: 22px !important;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  width: 100%;
+
+  /* Our sidebar item styling */
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: green;
+  transition: color 0.2s;
+}
+
+/* Change color on hover */
+.bm-item:hover {
+  color: white;
+}
+.bm-item {
+  /*background-color: red !important; */
+}
+/* The rest copied directly from react-burger-menu docs */
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 263px;
+  top: 27px !important;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #ffffff;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #273443;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #273443;
+  padding: 0 0 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #546a80;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: red;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.bm-menu-wrap,
+.bm-overlay {
+  top: 5em !important;
+}
+.bm-menu-wrap {
+  background-color: #273443 !important;
+}
+
+.nav-item,
+.nav-link {
+  background-color: #273443 !important;
+}
+
+.nav-link {
+  height: 50px !important;
+}
+
+.nav-link {
+  width: 100%;
+  height: 80px;
+  background: #273443;
+  font-size: 18px;
+  font-weight: bold;
+  color: #c4c8cc;
+  display: flex;
+  /*justify-content: center; */
+  align-items: center;
+  display: block;
+  padding: 0 auto;
+  text-decoration: none;
+  border: #273443 solid transparent;
+  border-color: #273443 solid transparent;
+  text-align: -webkit-center !important;
+  display: flex !important;
+  padding-left: 25px !important;
+  z-index: 1;
+}
+
+.titulomenu {
+  background-color: #1d2631 !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  color: #fff;
+}

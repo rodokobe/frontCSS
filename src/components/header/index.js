@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { Nav } from "react-bootstrap";
 import "./styles.css";
 import NavLink from "react-bootstrap/NavLink";
+import logo from "../../assets/jibs-logo.png";
+//
 
 class HeaderMenu extends Component {
   handleSelect(eventKey) {
@@ -11,23 +13,12 @@ class HeaderMenu extends Component {
   render() {
     return (
       <header className="header">
-        <Nav
-          activeKey="/home"
-          onSelect={selectedKey => alert(`selected ${selectedKey}`)}
-        >
-          <Nav.Item>
-            <NavLink href="/">Global</NavLink>
-          </Nav.Item>
-          <Nav.Item>
-            <NavLink href="/employees">Employees</NavLink>
-          </Nav.Item>
-          <Nav.Item>
-            <NavLink href="/products">Products</NavLink>
-          </Nav.Item>
-          <Nav.Item>
-            <NavLink href="/timing">Timing</NavLink>
-          </Nav.Item>
-        </Nav>
+        <div className="brandtitulo">
+          <div className="logoimagem">
+            <img src={logo} alt="Logo" />
+          </div>
+          <div className="marcanome">JIBS - Dashboard</div>
+        </div>
       </header>
     );
   }

@@ -1,11 +1,14 @@
+.nav {
+  width: 81%;
+}
 .nav-header {
   width: 100%;
   height: 80px;
-  background: #4c162c;
-  background-color: #4c162c;
+  background: #273544;
+  background-color: #273544;
   font-size: 18px;
   font-weight: bold;
-  color: #fff;
+  color: #1d2631;
   display: -webkit-flex;
   justify-content: center;
   align-items: center;
@@ -15,33 +18,45 @@
   list-style: none;
 }
 
-.nav-link {
-  width: 100%;
-  height: 80px;
-  background: #4c162c;
-  font-size: 18px;
-  font-weight: bold;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  display: block;
-  padding: 0 auto;
-  text-decoration: none;
-  border: #4c162c solid transparent;
-  border-color: #4c162c solid transparent;
-}
-
 .header {
+  top: 0px;
+  position: fixed;
   margin: 0 auto;
   width: 100%;
-  height: 80px;
-  background-color: #4c162c;
+  height: 4.5em;
+  background-color: #fff;
   font-size: 18px;
   font-weight: bold;
-  color: #fff;
+  color: #1d2631;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 auto;
+  z-index: 99;
+}
+
+a:hover {
+  color: #42a5f5 !important;
+}
+
+a:active {
+  color: #42a5f5 !important;
+}
+.brandtitulo {
+  width: 98% !important;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.logoimagem {
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.logoimagem img {
+  width: 35px;
+  height: 35px;
+}
+.marcanome {
 }
